@@ -2,7 +2,7 @@
 
 int main() 
 {
-	int a[10],n,k,i,count=0;
+	int a[100],n,k,i,count=0;
 	printf("Enter size of arrray: ");
 	scanf("%d",&n);
 	
