@@ -1,30 +1,30 @@
 #include <stdio.h>
 
-int main()
+int main() 
 {
-  int array[100], search, c, n;
-
-  printf("Enter number of elements in array: \n");
-  scanf("%d", &n);
-
-  printf("Enter %d integer(s)\n", n);
-
-  for (c = 0; c < n; c++)
-    scanf("%d", &array[c]);
-
-  printf("Enter a number to search\n");
-  scanf("%d", &search);
-
-  for (c = 0; c < n; c++)
-  {
-    if (array[c] == search) 
-    {
-      printf("%d is present at location %d.\n", search, c+1);
-      break;
-    }
-  }
-  if (c == n)
-    printf("%d isn't present in the array.\n", search);
-
-  return 0;
+	int a[10],n,k,i,count=0;
+	printf("Enter size of arrray: ");
+	scanf("%d",&n);
+	
+	for(i=0;i<n;i++)
+	    scanf("%d",&a[i]);
+	    
+	printf("Enter Element to be searched:");
+	scanf("%d",&k);
+	
+	for(i=0;i<n;i++)
+	{
+	    count++;
+	    if(a[i]==k)
+	    {
+	        printf("Found at %d\n",i+1);
+	        printf("OPERATION COUNT=%d\n",count);
+	        exit(0);
+	    }
+	}
+	printf("Not Found\n");
+	printf("OPERATION COUNT = %d\n",count);
+	
+	return 0;
 }
+
