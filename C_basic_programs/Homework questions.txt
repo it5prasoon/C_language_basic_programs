@@ -1,31 +1,33 @@
-Question- Write a C program to Swap two variables without using third variable.
-Question- Write a C program to calculate the area and perimeter of a circle.
-Question- Write a C program to convert Fahrenheit to Celsius.
-Question- Write a C program to check whether a year is leap year or not.
-Question- Write a C program to create a simple calculator for addition, subtraction, multiplication and
+Question1- Write a C program to Swap two variables without using third variable.
+Question2- Write a C program to calculate the area and perimeter of a circle.
+Question3- Write a C program to convert Fahrenheit to Celsius.
+Question4- Write a C program to check whether a year is leap year or not.
+Question5- Write a C program to create a simple calculator for addition, subtraction, multiplication and
 division using switch case.
-Question- Write a C program to check the type of triangle.
-Question- Write a C program to find the all prime number between two given number.
-Question- Write a C program to check whether number is Armstrong number or not
-Question- Write a C program to check number is perfect number or not
-Question- Write a C program to check a number is palindrome number or not
-Question- Write a C program to reverse a number
-Question- Write a C program to find HCF of two number using recursion
-Question- Write a C program to find LCM of two number using recursionQuestion- Write a C program to print pascal’s triangle
-Question- Write a C program to find factorial of a number using recursion
-Question- Write a C program to print diamond pattern
-Question- Write a C program to print star pyramid pattern
-Question- Write a C program Floyd triangle pattern
-Question- Write a C program to generate Fibonacci series
-Question- Write a C program to convert decimal to octal
-Question- Write a C program to convert decimal to binary
-Question- Write a C program to transpose a matrix
-Question- Write a C program for matrix multiplication
-Question- Write a C program to convert a number into word
-Question- Write a C program to perform linear search
-Question- Write a C program addition of complex number using structure
-Question- Write a C program to store employees information using structureQuestion- Write a C program to sort n elements
-Question- Write a C program find the length of string without using standard library function
-Question- Write a C program copy a string into another string without using standard library function
-Question – Write a C program to compare two string without using standard library function
-Question – Write a C program concatenate two string without using standard library function
+Question6- Write a C program to check the type of triangle.
+Question7- Write a C program to find the all prime number between two given number.
+Question8- Write a C program to check whether number is Armstrong number or not
+Question9- Write a C program to check number is perfect number or not
+Question10- Write a C program to check a number is palindrome number or not
+Question11- Write a C program to reverse a number
+Question12- Write a C program to find HCF of two number using recursion
+Question13- Write a C program to find LCM of two number using recursion
+Question14- Write a C program to print pascal’s triangle
+Question15- Write a C program to find factorial of a number using recursion
+Question16- Write a C program to print diamond pattern
+Question17- Write a C program to print star pyramid pattern
+Question18- Write a C program Floyd triangle pattern
+Question19- Write a C program to generate Fibonacci series
+Question20- Write a C program to convert decimal to octal
+Question21- Write a C program to convert decimal to binary
+Question22- Write a C program to transpose a matrix
+Question23- Write a C program for matrix multiplication
+Question24- Write a C program to convert a number into word
+Question25- Write a C program to perform linear search
+Question26- Write a C program addition of complex number using structure
+Question27- Write a C program to store employees information using structure
+Question28- Write a C program to sort n elements
+Question29- Write a C program find the length of string without using standard library function
+Question30- Write a C program copy a string into another string without using standard library function
+Question31– Write a C program to compare two string without using standard library function
+Question32– Write a C program concatenate two string without using standard library function
