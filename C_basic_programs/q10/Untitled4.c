@@ -1,7 +1,7 @@
     #include <stdio.h>
     int main()
     {
-        int n, ri = 0, rem, oi;
+        int n, ri = 0, rem, oi; /* ri = reversed integer oi= original integer*/
         printf("Enter an integer: ");
         scanf("%d", &n);
         oi = n;
