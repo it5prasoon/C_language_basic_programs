@@ -1,19 +1,35 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-    int n, num = 0;
+    int n, num = 0, digits;
+
+    /* Input number from user */
     printf("Enter any number to print in words: ");
     scanf("%d", &n);
+    
+    /* Find total digits in n */
+    digits = (int) log10(n); 
+
+    /* Store reverse of n in num */
     while(n != 0)
     {
         num = (num * 10) + (n % 10);
         n /= 10;
     }
+    
+    /* Find total trailing zeros */
+    digits =  digits - ((int) log10(num));  
+
+    /* 
+     * Extract last digit of number and print corresponding number in words 
+     * till num becomes 0
+     */
     while(num != 0)
     {
         switch(num % 10)
-  
+        {
             case 0: 
                 printf("Zero ");
                 break;
@@ -46,8 +62,14 @@ int main()
                 break;
         }
         
-        num = num / 10;
+        num /= 10;
     }
-
+    
+    while(digits)
+    {
+        printf("Zero ");
+        digits--;
+    }
+    
     return 0;
 }
